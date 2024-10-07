@@ -1,0 +1,7 @@
+% $Id: hw2-test8.spl,v 1.1 2024/10/06 12:15:35 leavens Exp $
+begin
+   proc skip begin if 0!=0then begin end end;
+   var x,y,zzy,xyzzy;
+   xyzzy:=xyzzy+9;
+   if xyzzy==zzy-252then x:=y*zzy else call skip end
+end.
